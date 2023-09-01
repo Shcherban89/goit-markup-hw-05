@@ -543,7 +543,7 @@
 
     <div class="overlay-modal is-hidden">
       <div class="form-container">
-        <button class="close-container" type="submit">
+        <button class="close-container" type="button">
           <svg width="8" height="8" class="close-icon">
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
@@ -560,12 +560,11 @@
                 type="text"
                 autofocus
               />
-              <svg width="18" height="18" class="person-icon">
+              <svg width="18" height="24" class="person-icon">
                 <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
               </svg>
             </div>
           </div>
-
           <div class="form-item">
             <label for="user-phone" class="form-label">Phone</label>
             <div class="input-wrap">
@@ -575,7 +574,7 @@
                 name="user-phone"
                 type="tel"
               />
-              <svg width="18" height="24" class="phone-icon">
+              <svg width="18" height="24" class="person-icon">
                 <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
               </svg>
             </div>
@@ -590,7 +589,7 @@
                 name="user-email"
                 type="email"
               />
-              <svg width="18" height="24" class="email-icon">
+              <svg width="18" height="24" class="person-icon">
                 <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
               </svg>
             </div>
@@ -598,15 +597,13 @@
 
           <div class="form-item-textarea">
             <label for="user-comment" class="form-label">Comment</label>
-            <div class="input-wrap">
-              <textarea
-                class="textarea-field"
-                id="user-comment"
-                name="user-comment"
-                rows="6"
-                placeholder="Text input"
-              ></textarea>
-            </div>
+            <textarea
+              class="textarea-field"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+            >
+            </textarea>
           </div>
 
           <div class="checkbox-container">

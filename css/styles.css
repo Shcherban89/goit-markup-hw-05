@@ -447,11 +447,11 @@ button {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .is-hidden {
+.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}  */
+}
 
 .form-container {
   position: absolute;
@@ -599,8 +599,8 @@ textarea::placeholder {
 .close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.close-container:hover + .close-icon,
-.close-container:focus + .close-icon {
+.close-container:hover .close-icon,
+.close-container:focus .close-icon {
   fill: #ffffff;
 }
 
@@ -619,15 +619,13 @@ textarea::placeholder {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-field:checked + .checkbox-custom {
+.checkbox-field:checked + .checkbox-label .checkbox-custom {
   background-color: #404bbf;
   border: none;
-}
-.checkbox-field:checked + .checkbox-icon {
   fill: #f4f4fd;
 }
 
-.checkbox-field:focus + .checkbox-custom {
+.checkbox-field:focus + .checkbox-label .checkbox-custom {
   border: 1px solid #4d5ae5;
 }
 .form-item {

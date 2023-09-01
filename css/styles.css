@@ -639,6 +639,5 @@ textarea::placeholder {
   margin-bottom: 16px;
 }
 .checkbox-container {
-  display: block;
   margin-bottom: 24px;
 }

@@ -482,6 +482,7 @@ button {
 }
 
 .input-field {
+  display: block;
   padding-left: 38px;
   padding-right: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -638,5 +639,6 @@ textarea::placeholder {
   margin-bottom: 16px;
 }
 .checkbox-container {
+  display: block;
   margin-bottom: 24px;
 }

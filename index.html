@@ -522,12 +522,14 @@
         <div class="subscribe-cont">
           <p class="subscribe-text">Subscribe</p>
           <form class="footer-form" autocomplete="off">
-            <input
-              type="email"
-              class="form-mail"
-              name="email-subscribe"
-              placeholder="E-mail"
-            />
+            <label class="subscribe-label">
+              <input
+                type="email"
+                class="form-mail"
+                name="email-subscribe"
+                placeholder="E-mail"
+              />
+            </label>
             <button class="subsc-butn" type="submit">
               Subscribe
               <svg class="icon-subscribe" width="24" height="24">
@@ -538,8 +540,8 @@
         </div>
       </div>
     </footer>
-    <div class="is-open">
-      <div class="overlay-modal"></div>
+
+    <div class="overlay-modal is-hidden">
       <div class="form-container">
         <button class="close-container" type="submit">
           <svg width="8" height="8" class="close-icon">

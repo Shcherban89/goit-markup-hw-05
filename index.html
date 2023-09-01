@@ -607,14 +607,19 @@
           </div>
 
           <div class="checkbox-container">
-            <label class="checkbox-label">
-              <input
-                class="checkbox-field"
-                name="privacy-policy"
-                type="checkbox"
-              />
-
-              <span class="checkbox-custom"></span>
+            <input
+              id="user-privacy"
+              class="checkbox-field visually-hidden"
+              name="user-privacy"
+              type="checkbox"
+              value="true"
+            />
+            <label class="checkbox-label" for="user-privacy">
+              <span class="checkbox-custom">
+                <svg width="10" height="8" class="checkbox-icon">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </span>
 
               I accept the terms and conditions of the
               <a href="" target="_blank" class="policy-link">Privacy Policy</a>

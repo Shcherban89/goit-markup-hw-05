@@ -432,6 +432,7 @@ button {
 }
 .icon-subscribe {
   margin-left: 16px;
+  fill: #ffffff;
 }
 .subsc-butn:hover,
 .subsc-butn:focus {
